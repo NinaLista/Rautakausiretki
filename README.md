@@ -4,6 +4,7 @@ Geolibre-karttaretki, demo 1
 Staattinen GeoLibre karttatarina  valikoiduista Satakunnan viikinkiajan arkeologisista kohteista. Teknisesti yhdistetty karttasiirtymät, kohdepisteet, kuvamateriaalin ja lyhyet tekstikortit ensisijaisesti desktop-selaimessa toimivaksi karttatarinaksi. 
 
 Tekniikka: GeoLibre StoryMaps, JSON/GeoJSON, GitHub Pages, ChatGPT Sol5.6 Korkea
+
 Karttaretki Satakunnan viikinkiajan arkeologisiin kohteisiin. GeoLibre StoryMaps -toteutus yhdistää kartan, kohdekuvat ja lyhyet arkeologiset tekstikortit yhdeksi virtuaaliseksi matkaksi.
 
 Tekijä & toimitus: Nina Mäki-Kihniä.
