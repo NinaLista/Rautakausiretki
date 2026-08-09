@@ -37,7 +37,38 @@ Ulkoiset resurssit:
 - `OpenFreeMap` → karttapohja
 - `Finna / KYPPi` → käyttäjän klikkaamat lähde- ja lisätietolinkit
 
-### Tekniset muistiinpanot GeoLibrestä
+# Workflow 
+
+AUTHORING
+canonical GeoLibre project
+        │
+        ├── map view
+        ├── embedded GeoJSON layers
+        ├── StoryMap chapters
+        ├── chapter HTML
+        ├── camera locations / zooms
+        └── image URLs
+
+PUBLIC ASSETS
+GitHub Pages repository
+        │
+        ├── index.html
+        ├── README.md
+        └── images/
+
+RUNTIME
+index.html
+        │
+        ├── contains complete GeoLibre project JSON
+        └── sends project with postMessage
+                 │
+                 ▼
+        web.geolibre.app
+                 │
+                 ├── renders StoryMap
+                 └── uses OpenFreeMap basemap
+
+# Tekniset muistiinpanot GeoLibrestä
 
 - **GeoLibre ei näyttänyt kaikkia kuvia vakaasti.** → Kuvat siirrettiin Finna/KYPPi-suoralinkeistä omaan GitHub Pages `images/` -hakemistoon.
 - **Base64-kuvat tekivät `.geolibre.json`-tiedostosta valtavan ja hankalan muokata.** → Kuvakentät vaihdettiin tavallisiksi HTTPS-kuvalinkeiksi.
@@ -47,6 +78,12 @@ Ulkoiset resurssit:
 - **Sama tieto esiintyi useissa JSON/GeoJSON-varatiedostoissa.** → Yksi `.geolibre.json` toimii master-projektina; muut tiedostot ovat lähinnä varmuus- ja työaineistoa.
 - **Kuvaoikeudet vaihtelevat lähteittäin.** → Kuvaaja-, vuosi-, organisaatio-, lähde- ja lisenssitiedot on koottu tämän README-tiedoston kuvaosioon.
 - **GeoLibren Present/embed-näkymällä on typografisia ja asetteluun liittyviä rajoituksia.** → GeoLibreä käytetään kartan, kohdekorttien ja tarinasiirtymien esittämiseen. Tarvittaessa ulkoasua voidaan myöhemmin viimeistellä itsenäisessä HTML-versiossa.
+
+# Projektin jälkeen
+
+- Turvallisuusanalyysi.
+- Analyysi työvaiheista, joita on mahdollisuus automatisoida skripteillä -> loin kokeeksi yksittäisiä .py skriptejä ja skills-paketin agentille.
+- Automatisointivaiheiden testaus on toisen projektin paikka.
 
 # Kuvien lähteet ja käyttöoikeudet
 
