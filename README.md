@@ -1,11 +1,9 @@
 # Rautakausiretki
 Geolibre-karttaretki, demo 1
 
-Staattinen GeoLibre karttatarina  valikoiduista Satakunnan viikinkiajan arkeologisista kohteista. Teknisesti yhdistetty karttasiirtymät, kohdepisteet, kuvamateriaalin ja lyhyet tekstikortit ensisijaisesti desktop-selaimessa toimivaksi karttatarinaksi. 
+Staattinen GeoLibre karttatarina  valikoiduista Satakunnan viikinkiajan arkeologisista kohteista. Teknisesti yhdistetty karttasiirtymät, kohdepisteet, kuvamateriaali ja lyhyet tekstikortit ensisijaisesti desktop-selaimessa toimivaksi karttatarinaksi. 
 
 Tekniikka: GeoLibre StoryMaps, JSON/GeoJSON, GitHub Pages, ChatGPT Sol5.6 Korkea
-
-Karttaretki Satakunnan viikinkiajan arkeologisiin kohteisiin. GeoLibre StoryMaps -toteutus yhdistää kartan, kohdekuvat ja lyhyet arkeologiset tekstikortit yhdeksi virtuaaliseksi matkaksi.
 
 Tekijä & toimitus: Nina Mäki-Kihniä.
 Lähteet: VARK, KYPPi, Finna sekä kohdekohtaisesti mainitut arkeologiset julkaisut.
@@ -94,7 +92,7 @@ Leena Koivisto · 2009 · Satakunnan Museo · CC BY 4.0<br>
 https://www.finna.fi/Record/museovirasto.6F835FF3661121A7538996C48C5279EF?sid=5451478102</sub>
 
 <sub><strong>02_eura_emanta_geolibre.jpg</strong><br>
-Matti Bergström · vuosi ei ilmoitettu lähdetietueessa · Museovirasto · CC BY 4.0<br>
+Matti Bergström · 1983 · Museovirasto · CC BY 4.0<br>
 https://www.finna.fi/Record/musketti.M012:AKD7157:1</sub>
 
 <sub><strong>03_kauttua_linnavuori.jpg</strong><br>
