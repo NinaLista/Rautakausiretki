@@ -1,6 +1,6 @@
 # Rautakausiretki
 
-[Geolibre-karttaretki, demo 1]([https://NIMI.github.io/REPO/](https://ninalista.github.io/Rautakausiretki/)
+[Geolibre-karttaretki, demo 1]([https://ninalista.github.io/Rautakausiretki/])
 
 Staattinen GeoLibre karttatarina  valikoiduista Satakunnan viikinkiajan arkeologisista kohteista. Teknisesti yhdistetty karttasiirtymät, kohdepisteet, kuvamateriaali ja lyhyet tekstikortit ensisijaisesti desktop-selaimessa toimivaksi karttatarinaksi. 
 
